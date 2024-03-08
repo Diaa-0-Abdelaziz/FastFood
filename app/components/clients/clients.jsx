@@ -13,7 +13,7 @@ export default function Clients() {
   }, [])
   return (
    <>
-   <div className="clients container mt-5 mb-5">
+   <div className="clients container mt-5 mb-5 overflow-hidden">
     <div className=" d-flex flex-wrap justify-content-around">
         <div className="mt-5" data-aos="fade-right">
         <div className="content">
