@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./fast-food-logo.ico"/>
+        <link rel="icon" href="./favicon.ico"/>
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <Navbar/>
