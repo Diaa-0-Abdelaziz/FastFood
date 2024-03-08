@@ -10,7 +10,7 @@ export default function MainSection() {
           <div className="content">
             <p>FAST FOOD BURGERS</p>
           <h1>The fastest food, for instant hunger.</h1>
-          <p className='ex my-5'>Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words & my food and gone back for seconds.</p>
+          <p className='ex my-5'>Some food has looked so awful that it is looked like something that the dog is brought home, yet after one mouthful I have been left eating my thoughts, my words & my food and gone back for seconds.</p>
           <span>order now</span>
           </div>
           </div>
