@@ -1,6 +1,15 @@
-import React from 'react'
+"use client"
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./main.css";
 export default function MainSection() {
+  useEffect(() => {
+    
+    AOS.init({
+      duration:2000
+    })
+  }, [])
   return (
     <>
     <main className=' vh-100 w-100'>

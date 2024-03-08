@@ -1,11 +1,21 @@
-import React from 'react'
+"use client"
+import React,{useEffect} from 'react'
 import Image from 'next/image'
 import cart1 from '../../imges/cart1.jpeg'
 import cart2 from '../../imges/cart2.jpeg'
 import cart3 from '../../imges/cart3.jpeg'
 import cart4 from '../../imges/cart4.jpeg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./carts.css";
+
 export default function Carts() {
+  useEffect(() => {
+    
+    AOS.init({
+      duration:2000
+    })
+  }, [])
     let cards = [
         {
           img:cart1,
@@ -35,7 +45,7 @@ export default function Carts() {
 <div className="row">
    
 {(cards.map((card, index)=>
- <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">
+ <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="flip-left">
  <div className="card">
  <Image loading="eager" width={200} height={200} src={card.img} className='w-100 h-auto'  alt={card.img}/>
  <div className="card-body text-center">

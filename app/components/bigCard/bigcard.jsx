@@ -1,12 +1,21 @@
-import React from 'react'
+"use client"
+import React,{useEffect} from 'react'
 import Image from 'next/image'
 import BigCart1 from '../../imges/BigCart1.jpeg'
 import BigCart2 from '../../imges/BigCart2.jpeg'
 import BigCart3 from '../../imges/BigCart3.jpeg'
 import BigCart4 from '../../imges/BigCart4.jpeg'
 import { MdAttachMoney } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import'./bigCard.css'
 export default function Bigcard() {
+  useEffect(() => {
+    
+    AOS.init({
+      duration:2000
+    })
+  }, [])
     let BigCards = [
         {
           img:BigCart4,
@@ -42,7 +51,7 @@ export default function Bigcard() {
     <div className="bigcard container my-5">
     <div className="row">
         {BigCards.map((card, index)=>
-        <div key={index} className="col-md-6 p-2">
+        <div key={index} className="col-md-6 p-2" data-aos="zoom-in">
              <div className="cart position-relative">
              <Image loading="eager" width={600} height={200} src={card.img} className=' w-100 h-100 image'  alt={card.img}/>
             <div className={`content position-absolute  p-5 ${index === 0 || index === 2 ? `top-0 end-0`: `top-0 start-0`}`}>
