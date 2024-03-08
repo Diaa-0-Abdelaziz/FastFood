@@ -1,0 +1,53 @@
+.footer
+{
+    color: rgb(159, 158, 158);
+   .liHeadOfSocial
+   {
+    ul 
+    {
+        max-width: 100px;
+        margin: auto;
+    }
+    .lihead
+    {
+        font-size: 16px;
+            font-weight: 500;
+            color: white;
+    }
+   }
+   .concat
+   {
+    .badge
+    {
+        color: rgb(159, 158, 158);
+    }
+   }
+    ul
+    {
+        .lihead
+        {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+        }
+        li 
+        {
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 400;
+            span 
+            {
+                color: chocolate;
+                margin-right: 5px;
+            }
+        }
+    }
+    .socialIcon
+    {
+        .social
+        {
+            width: 15px !important;
+            height: 15px !important;
+        }
+    }
+}

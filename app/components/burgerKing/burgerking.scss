@@ -1,0 +1,49 @@
+.burgerking
+{
+    background-color: #312F30;
+    h2
+    {
+        color: white;
+        font-size: 44.2px;
+        font-weight: 500;
+    }
+    h6 
+    {
+        color: rgb(163, 162, 162);
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    .price
+    {
+        color:#F6762C;
+        font-size: 20px;
+        font-weight: 500px;
+       span{
+        color: #fa975db1;
+        position: relative;
+        font-size: 16px;
+        font-weight: 500px;
+       } 
+       span::after{
+        position: absolute;
+        content: '';
+        width: 90%;
+        height: 1px;
+        bottom: 7px;
+        left: 5px;
+        background-color: #fa975db1;
+      
+    }
+    }
+    .orderNow
+    {
+        background-color: #F6762C;
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500px;
+        cursor: pointer;
+    }
+}

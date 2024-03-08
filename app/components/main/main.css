@@ -1,0 +1,33 @@
+main {
+  background-image: url("../../imges/main-picture.png");
+  background-size: cover;
+  display: flow-root;
+  color: white;
+}
+main .content {
+  max-width: 600px;
+}
+main .content p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+}
+main .content h1 {
+  font-size: 57.33px;
+  font-weight: 500;
+}
+main .content .ex {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(186, 188, 189);
+  max-width: 500px;
+}
+main span {
+  background-color: #F6762C;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

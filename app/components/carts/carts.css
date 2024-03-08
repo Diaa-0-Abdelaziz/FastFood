@@ -1,0 +1,16 @@
+.carts .card {
+  background-color: #312F30;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 337px;
+}
+.carts .card-body .card-title {
+  font-size: 20px;
+  font-weight: 500px;
+}
+.carts .card-body .card-text {
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgb(163, 162, 162);
+}/*# sourceMappingURL=carts.css.map */

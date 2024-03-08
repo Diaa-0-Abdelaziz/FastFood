@@ -1,0 +1,53 @@
+.bigcard .image {
+  transform: scale(1.3);
+}
+.bigcard .cart {
+  height: 264px;
+  overflow: hidden;
+}
+.bigcard .cart .content {
+  background: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.bigcard .cart .content h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.bigcard .cart .content .ex {
+  max-width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.bigcard .cart .content .price {
+  color: #F6762C;
+  font-size: 20px;
+  font-weight: 500px;
+}
+.bigcard .cart .content .price span {
+  color: rgba(250, 151, 93, 0.6941176471);
+  position: relative;
+  font-size: 16px;
+  font-weight: 500px;
+}
+.bigcard .cart .content .price span::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 1px;
+  bottom: 7px;
+  left: 5px;
+  background-color: rgba(250, 151, 93, 0.6941176471);
+}
+.bigcard .cart .content .orderNow {
+  background-color: #F6762C;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500px;
+  cursor: pointer;
+}/*# sourceMappingURL=bigCard.css.map */

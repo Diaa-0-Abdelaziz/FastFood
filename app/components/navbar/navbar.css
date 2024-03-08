@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #151515;
+  position: fixed;
+  z-index: 99990;
+}
+.navbar .menu,
+.navbar .close {
+  color: #F6762C;
+  cursor: pointer;
+}
+.navbar ul li {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #F6762C;
+}
+.navbar .carterth span {
+  background-color: #F6762C;
+  padding: 10px 20px;
+  text-align: center;
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .navbar .link {
+    position: absolute;
+    background: transparent;
+    -webkit-backdrop-filter: blur(40px);
+            backdrop-filter: blur(40px);
+    padding-bottom: 15px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -300px;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(253, 132, 4, 0.645);
+  }
+  .navbar .toggle {
+    top: 100px;
+  }
+  .navbar ul {
+    text-align: center;
+  }
+  .navbar ul li {
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width: 901px) {
+  .navbar .navbar {
+    display: flex;
+  }
+  .navbar .link {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .navbar .menu, .navbar .close {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar ul li {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=navbar.css.map */

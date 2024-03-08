@@ -1,0 +1,33 @@
+.footer {
+  color: rgb(159, 158, 158);
+}
+.footer .liHeadOfSocial ul {
+  max-width: 100px;
+  margin: auto;
+}
+.footer .liHeadOfSocial .lihead {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.footer .concat .badge {
+  color: rgb(159, 158, 158);
+}
+.footer ul .lihead {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.footer ul li {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer ul li span {
+  color: chocolate;
+  margin-right: 5px;
+}
+.footer .socialIcon .social {
+  width: 15px !important;
+  height: 15px !important;
+}/*# sourceMappingURL=footer.css.map */

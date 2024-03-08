@@ -1,0 +1,164 @@
+.clients .content {
+  width: 346px;
+  height: 346px;
+  border: 1px dashed #F6762C;
+  border-radius: 50%;
+  position: relative;
+}
+.clients .content .circle {
+  width: 70.98px;
+  height: 70.98px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle 20s linear infinite;
+  background-image: url("../../imges/client1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clients .content .circle2 {
+  width: 70.98px;
+  height: 70.98px;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle2 20s linear infinite;
+  background-image: url("../../imges/client2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clients .content .circle3 {
+  width: 70.98px;
+  height: 70.98px;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle3 20s linear infinite;
+  background-image: url("../../imges/client3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clients .content .circle4 {
+  width: 70.98px;
+  height: 70.98px;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circle4 20s linear infinite;
+  background-image: url("../../imges/client4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clients .content .circle_center {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 1px dashed #F6762C;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.clients .content .circle_center .circle5 {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 70.98px #F6762C;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  background-image: url("../../imges/client5.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-165px) rotate(-360deg);
+  }
+}
+@keyframes circle2 {
+  0% {
+    transform: rotate(0deg) translate(165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(165px) rotate(-360deg);
+  }
+}
+@keyframes circle3 {
+  0% {
+    transform: rotate(0deg) translateY(165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateY(165px) rotate(-360deg);
+  }
+}
+@keyframes circle4 {
+  0% {
+    transform: rotate(0deg) translateY(-165px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateY(-165px) rotate(-360deg);
+  }
+}
+.clients .icon {
+  color: #F6762C;
+  position: relative;
+}
+.clients .icon::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: -10px;
+  border-radius: 50%;
+  right: -20px;
+  background-color: rgba(246, 118, 44, 0.137254902);
+}
+.clients .icon {
+  font-size: 30px;
+}
+.clients .message {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 350px;
+  color: rgb(185, 184, 184);
+}
+.clients h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.clients .natunality {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(149, 149, 149);
+}/*# sourceMappingURL=clients.css.map */

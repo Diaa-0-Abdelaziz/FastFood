@@ -1,0 +1,40 @@
+main 
+{
+    background-image: url("../../imges/main-picture.png");
+    background-size: cover;
+   display: flow-root;
+    color: white;
+    .content
+    {
+        max-width: 600px;
+        p:nth-child(1)
+        {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        h1
+        {
+            font-size: 57.33px;
+            font-weight: 500;
+        }
+        .ex
+        {
+            font-size: 18px;
+            font-weight: 400;
+            color: rgb(186, 188, 189);
+            max-width: 500px;
+        }
+    }
+    
+    span
+    {
+        background-color: #F6762C;
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500px;
+        cursor: pointer;
+    }
+}
