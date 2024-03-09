@@ -1,0 +1,32 @@
+.caregory
+{
+    margin-top: 100px;
+    padding: 20px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.537)), url(../../imges/ground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.row
+{
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+article
+{
+    cursor: pointer;
+}
+.categor
+{
+   background-image: linear-gradient(rgba(121, 60, 3, 0.705),rgba(0, 0, 0, 0.651));
+   height: 100%;
+   width: 100%;
+   /* bottom: 0; */
+   bottom: -100%;
+   transition: .5s;
+   
+}
+article:hover .categor
+{
+    bottom: 0px;
+}

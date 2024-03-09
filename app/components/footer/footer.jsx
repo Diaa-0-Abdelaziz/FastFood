@@ -1,5 +1,5 @@
-"use client"
-import React,{useEffect} from 'react'
+
+import React from 'react'
 import Image from 'next/image'
 import logo from '../../imges/fast-food-logo.svg'
 import facebook from '../../imges/facebook.png'
@@ -8,22 +8,15 @@ import linkedin from '../../imges/linkedin.png'
 import twitter from '../../imges/twitter.png'
 import { BsEnvelope } from "react-icons/bs";
 import { TbWorld } from "react-icons/tb";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import"./footer.css"
 
 export default function Footer() {
-    useEffect(() => {
-    
-        AOS.init({
-          duration:2000
-        })
-      }, [])
+
   return (
     <div className="footer mt-5">
         <div className='container'>
 
-        <div className="row flex-wrap justify-content-between  text-center align-items-center" data-aos="zoom-in">
+        <div className="row flex-wrap justify-content-between  text-center align-items-center">
             
         <ul className=' list-unstyled col-md-2 concat me-5'>
             <li>
