@@ -7,7 +7,7 @@
   padding: 10px 0;
   color: white;
 }
-.details .container .row {
+.details .container .details {
   background: transparent;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);

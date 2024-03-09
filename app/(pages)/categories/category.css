@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-.row
+.caregory .row
 {
     background: transparent;
     backdrop-filter: blur(20px);

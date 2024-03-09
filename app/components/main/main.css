@@ -4,6 +4,9 @@ main {
   display: flow-root;
   color: white;
 }
+main .row {
+  background-color: none;
+}
 main .content {
   max-width: 600px;
 }

@@ -14,7 +14,7 @@ export default function MainSection() {
     <>
     <main className=' vh-100 w-100'>
       <div className="container h-100 px-4">
-         <div className="row">
+         <div className="row h-100">
          <div className="col-md-6 w-auto position-absolute top-50 translate-middle-y">
           <div className="content pt-5">
             <p className='mt-5'>FAST FOOD BURGERS</p>
