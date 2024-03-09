@@ -45,7 +45,7 @@ export default function Carts() {
 <div className="row">
    
 {(cards.map((card, index)=>
- <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="flip-left">
+ <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in-down">
  <div className="card">
  <Image loading="eager" width={200} height={200} src={card.img} className='w-100 h-auto'  alt={card.img}/>
  <div className="card-body text-center">
