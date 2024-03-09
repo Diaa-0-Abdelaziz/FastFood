@@ -24,10 +24,6 @@ export default function Navbar() {
       pathName: "/categories"
     },
     {
-      linkName:"Area",
-      pathName: "/area"
-    },
-    {
       linkName:"Ingredients",
       pathName: "/ingredients"
     },
