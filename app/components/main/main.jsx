@@ -17,7 +17,7 @@ export default function MainSection() {
          <div className="row">
          <div className="col-md-6 w-auto position-absolute top-50 translate-middle-y">
           <div className="content pt-5">
-            <p>FAST FOOD BURGERS</p>
+            <p className='mt-5'>FAST FOOD BURGERS</p>
           <h1>The fastest food, for instant hunger.</h1>
           <p className='ex my-5'>Some food has looked so awful that it is looked like something that the dog is brought home, yet after one mouthful I have been left eating my thoughts, my words & my food and gone back for seconds.</p>
           <span>order now</span>
