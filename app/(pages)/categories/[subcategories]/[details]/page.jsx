@@ -15,8 +15,8 @@ export default async function Details({params}) {
     <>
         <div className="details">
       <div className="container">
-      {details.map((detailsOfMeal)=>
-      <div className="row details">
+      {details.map((detailsOfMeal, index)=>
+      <div className="row details" key={index}>
       <div className="img col-md-5">
         <Image priority loading="eager" width={600} height={200} src={detailsOfMeal.strMealThumb} className="w-100 h-auto" alt={detailsOfMeal.strMealThumb}/>
         <p className="fs-4">{detailsOfMeal.strMeal}</p>
