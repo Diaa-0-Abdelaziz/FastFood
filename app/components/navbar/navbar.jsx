@@ -6,7 +6,9 @@ import { CgMenuGridR } from "react-icons/cg";
 import { AiFillCloseSquare } from "react-icons/ai";
 import "./navbar.css"
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 export default function Navbar() {
+let path =  usePathname()
     const [open, setOpen] = useState("link")
     function openWindow(){
       setOpen("link toggle")
@@ -46,7 +48,7 @@ export default function Navbar() {
    <ul className=' list-unstyled'>
     {links.map((link, index)=>
     <li key={index}>
-    <Link href={link.pathName}>{link.linkName}</Link>
+    <Link className={path === link.pathName? 'active': ''} href={link.pathName}>{link.linkName}</Link>
   </li>
     )}
    </ul>

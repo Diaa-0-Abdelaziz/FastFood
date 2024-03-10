@@ -10,9 +10,16 @@
     }
     ul{
         li{
+            .active 
+            {
+                background-color: #F6762C;
+                color: white;
+            }
             a 
             {
-                margin:0 10px;
+            margin:0 10px;
+            padding: 2px 4px;
+            border-radius: 5px;
             cursor: pointer;
             color: #F6762C;
             text-decoration: none;

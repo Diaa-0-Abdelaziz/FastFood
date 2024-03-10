@@ -8,8 +8,14 @@
   color: #F6762C;
   cursor: pointer;
 }
+.navbar ul li .active {
+  background-color: #F6762C;
+  color: white;
+}
 .navbar ul li a {
   margin: 0 10px;
+  padding: 2px 4px;
+  border-radius: 5px;
   cursor: pointer;
   color: #F6762C;
   text-decoration: none;
